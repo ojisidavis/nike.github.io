@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cool {
+    width: 100%;
+    height: 145ch;
+    background-color: rgba(0, 0, 0, 0.575);
+    overflow: hidden;
+    position: relative;
+
+}
+
+#cool {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.van {
+    position: relative;
+    width: 20ch;
+    height: 20ch;
+    background-color: coral;
+    float: left;
+    margin-left: 11ch;
+    margin-top: 20ch;
+}
+
+.fun {
+    position: relative;
+    width: 100%;
+    height: 120ch;
+    background-color: rgba(128, 128, 128, 0.651);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-content: space-evenly;
+
+
+
+}
+
+
+.venn {
+
+    width: 30ch;
+    height: 30ch;
+    background-color: coral;
+    border-radius: 2ch;
+    transition: 400ms;
+    box-shadow: 2px 4px 6px gray;
+    overflow: hidden;
+
+
+}
+
+.venn:hover {
+    transform: scale(1.08);
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 2ch;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: skyblue;
+    box-shadow: 2px;
+    transition: 150ms ease;
+    display: inline-flex;
+
+
+
+}
+
+
+.btn:hover {
+    background-color: yellow;
+    scale: 2;
+
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: white;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grow {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 2ch;
+    box-shadow: 2px 4px 6px gray;
+}
+
+footer {
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.go {
+    color: white;
+    font-size: 2rem;
+}
+
+.ruo {
+    color: white;
+    font-size: 2rem;
+}
+
+#work {
+    max-width: 100%;
+    height: auto;
+}
+
+#fa-sharpfa-thinfa-cart-shopping {
+    position: relative;
+    top: 20%;
+    font-size: 4rem;
+
+}
+
+@media (max-width:900px) {
+
+    .cool {
+        height: 70ch;
+    }
+
+    #cool {
+        height: 80ch;
+        display: flex;
+        flex-shrink: 1;
+    }
+
+    .btn {
+        top: 70%;
+    }
+
+    .text {
+        top: 40%;
+        font-size: 2rem;
+    }
+
+}
+
+
+@media(max-width:500px) {
+    .btn {
+        font-size: 1rem;
+    }
+
+    .go {
+        font-size: 1rem;
+    }
+
+    .ruo {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media(max-width:1000px) {
+    .fun {
+        height: 500ch;
+    }
+
+
+}
+
+
+@media(max-width:1309px) {
+    .fun {
+        height: 150ch;
+    }
+
+
+}
+
+
+@media(max-width:799px) {
+    .fun {
+        height: 300ch;
+    }
+
+
+}
+
+@media(max-width:519px) {
+    .fun {
+        height: 380ch;
+    }
+
+
+}
